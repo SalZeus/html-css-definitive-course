@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autocomplete y require</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>cual es tu nombre?</span>
+                <input id="nombre" type="text" name="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>En que pais resides?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="zip">
+                <span>cual es tu codigo Zip?</span>
+                <input type="number" name="zip" id="zip" autocomplete="postal-code" required>
+            </label> 
+            <input type="submit" name="submit" id="submit"> 
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* h2 + p{
+    color: red;
+} */
+/* general siblings */
+h2 ~p{
+    color: green;
+}
+/* descendandts and children */
+/* only direct children */
+div > h3{
+    color: rgb(143, 143, 35);
+}
+/* all children */
+div h2{
+    color: rgb(46, 139, 139);
+}

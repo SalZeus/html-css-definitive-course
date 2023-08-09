@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    max-height: 10%;
+    justify-content: space-between;
+    background-color: black;
+}
+nav img{
+    object-fit: cover;
+    max-width: 6rem;
+}
+nav h1{
+    color: rgb(43, 226, 153);
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: inherit;
+    align-items: center;
+}
+.menu h2{
+    background-color: rgb(76, 139, 65);
+    color: aliceblue;
+    margin: 1rem;
+    max-height: 3rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+}
+
+/* navbar */
+
+.content-container{
+    display: flex;
+    height: 80vh;
+}
+
+/* sidebar */
+
+.sidebar{
+    width: 20%;
+    background-color: beige;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.sidebar h1{
+    margin: 2rem auto;
+    padding: 2rem;
+
+}
+.sidebar .generation img{
+    object-fit: cover;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.generation{
+    background-color: dodgerblue;
+    margin: 2rem auto;
+    width: 80%;
+    height: 17%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sidebar */
+
+/* website-content */
+
+.website-content{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.website-content h1{
+    text-align: center;
+    margin: 1rem auto auto 1rem;
+}
+.ai-generations{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+.generations{
+    max-height: 50%;
+    height: 50%;
+    width: 20%;
+    background-color: dodgerblue;
+    margin: 2rem auto;
+    width: 80%;
+    height: 17%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.website-content .generations img{
+    object-fit: cover;
+    max-height: 50%;
+    overflow: hidden;
+    border-radius: 2rem;
+    max-height: 50%;
+    height: 50%;
+    width: 90%;
+    margin: auto;
+}
+
+/* website content */
+
+/* footer */
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    max-height: 20%;
+    justify-content: space-between;
+    background-color: black;
+}
+footer img{
+    object-fit: cover;
+    max-width: 6rem;
+}
+.logo-container .dingo.footer{
+    color: aqua;
+}
+/* footer */

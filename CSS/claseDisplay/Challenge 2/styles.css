@@ -91,6 +91,7 @@ nav h1{
 .ai-generations{
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 }
 .generations{
